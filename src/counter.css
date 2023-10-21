@@ -1,0 +1,74 @@
+body{
+    background:linear-gradient( to right,rgb(255, 225, 33),rgb(248, 247, 248)) ;
+    text-align: center;  
+}
+.count{
+    position: relative;
+    top: -20px;
+    font-size: 70px;
+    color: rgb(19, 52, 80);
+}
+h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(77, 2, 128);
+}
+.app{
+position: relative;
+top: 230px;
+}
+
+.app h1{
+    margin-bottom: 100px;
+}
+.reset{
+    background-color: rgb(160, 158, 158);
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    font-weight: 100;
+    height: 70px;
+    
+}
+.reset:hover{
+    background-color: grey;
+    border: 3px rgb(88, 84, 84) solid;
+}
+.allbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 30%;
+    left: 34%;
+   
+}
+button{
+    width: 100px;
+    height: 90px;
+    font-size: 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100%;
+}
+.allbutton :nth-child(1){
+    background-color: red;
+    color: aliceblue;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.allbutton :nth-child(3){
+    background-color: rgb(28, 185, 11);
+    color: aliceblue; 
+}
+.allbutton :nth-child(1):hover{
+    background-color: rgb(236, 62, 62);
+border: 5px rgb(201, 50, 50) solid;
+}
+.allbutton :nth-child(3):hover{
+    background-color: green;
+    border: 5px rgb(31, 108, 31) solid;
+}
